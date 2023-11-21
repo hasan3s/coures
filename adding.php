@@ -13,18 +13,18 @@
     
     <form method="post">
         <div class="form">
-            <label class="label" id="label">delete</label>
+            <label class="label" id="label">ADD</label>
             <div>
                 <input type="name" class="name" name="name" id="name" placeholder="Your Name" required>
             </div>
             <div>
-                <input type="text" class="id" ggg="id" id="id" placeholder="Your ID" required>
+                <input type="text" class="id" name="id" id="id" placeholder="Your ID" required>
             </div>
             <div>
                 <input type="text" class="age" name="age" id="age" placeholder="Your Age" required>
             </div>
             <div>
-                <select type="text" class="gender" name="gender" id="gender" placeholder="Your Gender" >
+                <select type="text" class="gender" name="gender" id="gender" placeholder="Your Gender" required>
                     <option selcted value="selected none">Your gender</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
