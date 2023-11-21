@@ -13,7 +13,7 @@
     
     <form method="post">
         <div class="form">
-            <label class="label" id="label">ADD</label>
+            <label class="label" id="label">mohammad</label>
             <div>
                 <input type="name" class="name" name="name" id="name" placeholder="Your Name" required>
             </div>
