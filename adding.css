@@ -1,0 +1,77 @@
+body {
+    font-family: Century Gothic;
+}
+.form {
+    position: relative;
+    width: 500px;
+    height: 730px;
+    background-color: rgb(169, 169, 169);
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+
+  .name , .id , .age , .email , .phone , .location {
+    width: 380px;
+    height: 20px;
+    position: relative;
+    padding: 10px 15px;
+    border: 10px;
+    margin-top: 35px;
+    font-size: larger;
+    display: block;
+    border-radius: 5px;
+    top: 70px;
+    left: 47px;
+
+  }
+
+  .gender{
+    width: 409px;
+    height: 42px;
+    position: relative;
+    padding: 10px 15px;
+    border: 10px;
+    margin-top: 35px;
+    font-size: larger;
+    display: block;
+    border-radius: 5px;
+    top: 70px;
+    left: 47px;
+
+  }
+
+  .Add , .back_to_index {
+    width: 410px;
+    position: relative;
+    padding: 10px 15px;
+    border: 10px;
+    margin-top: 13px;
+    font-size: larger;
+    display: block;
+    border-radius: 5px;
+    top: 90px;
+    left: 47px;
+  }
+
+  .Add:hover{
+    background-color: rgb(0, 163, 60);
+    color: white;
+  }
+
+  .back_to_index:hover {
+    background-color:red;
+    color: white;
+  }
+
+  #label{
+
+    position: absolute;
+    display: block ;
+    font-size: 35px;
+    color: white;
+    top: 4px;
+    left: 200px;
+  }
+ 
